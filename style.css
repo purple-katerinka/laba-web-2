@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0d1421;
+  font-weight: 500;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.card {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.price {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.brandTitle {
+  color: #667085;
+}
+
+.clothName {
+  color: #667085;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 600px;
+}
+
+.logo {
+  color: #354153;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo > p {
+  color: #354153;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.logo > img {
+  width: 32px;
+  height: 32px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.filter > p {
+  color: #354153;
+  font-size: 16px; /*размер*/
+  font-weight: 600; /*жирность*/
+}
+
+.default {
+  display: flex; /*выравнивание в линию*/
+  align-items: center;
+}
+
+.default > p {
+  color: #354153;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  border: 1px solid #eaecf0;
+  margin: 10px 0; /*отступы*/
+}
+.main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.clothesType {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  color: #0d1421;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 10px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 60px;
+}
